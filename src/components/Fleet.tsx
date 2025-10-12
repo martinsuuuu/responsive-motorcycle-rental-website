@@ -7,10 +7,9 @@ import { Users, Gauge, Fuel, Settings } from "lucide-react";
 const motorcycles = [
   {
     id: 1,
-    name: "Yamaha XMAX 300",
+    name: "Yamaha XMAX",
     category: "Scooter",
     image: "https://images.unsplash.com/photo-1558981359-219d6364c9c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHNjb290ZXIlMjBtb3RvcmN5Y2xlfGVufDF8fHx8MTc1OTEzNDE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-    price: "$75",
     features: ["300cc Engine", "ABS + Traction Control", "Loud Horn", "60w Driving Lights", "Well Maintained", "White (2022 Model)"],
     specs: {
       passengers: 2,
@@ -21,10 +20,9 @@ const motorcycles = [
   },
   {
     id: 2,
-    name: "Yamaha Mio Gear125",
+    name: "Yamaha Mio Gear",
     category: "Scooter",
     image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHNjb290ZXIlMjB5YW1haGF8ZW58MXx8fHwxNzU5MTM0MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    price: "$45",
     features: ["125cc Engine", "Loud Horn", "30w Driving Light", "36L Givi Box", "White (2022 Model)"],
     specs: {
       passengers: 2,
@@ -35,10 +33,9 @@ const motorcycles = [
   },
   {
     id: 3,
-    name: "QjMoto Atr 160",
+    name: "QjMoto Atr",
     category: "Sport",
     image: "https://images.unsplash.com/photo-1609630875171-b1321377ee65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHNwb3J0JTIwbW90b3JjeWNsZXxlbnwxfHx8fDE3NTkxMzQxMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    price: "$55",
     features: ["160cc Engine", "ABS + Traction Control", "Projector Headlights", "50w Driving Light", "45L Top Box", "White (2024 Model)"],
     specs: {
       passengers: 2,
@@ -49,10 +46,9 @@ const motorcycles = [
   },
   {
     id: 4,
-    name: "Honda Adv160",
+    name: "Honda Adv",
     category: "Adventure",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMGFkdmVudHVyZSUyMHNjb290ZXJ8ZW58MXx8fHwxNzU5MTM0MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    price: "$60",
     features: ["160cc Engine", "ABS + Traction Control", "Loud Horn", "60w Driving Light", "36L Top Box", "Black (2024 Model)"],
     specs: {
       passengers: 2,
@@ -91,13 +87,7 @@ export function Fleet() {
               </div>
               
               <CardHeader>
-                <div className="flex justify-between items-start">
-                  <CardTitle className="text-xl">{bike.name}</CardTitle>
-                  <div className="text-right">
-                    <div className="text-2xl font-bold text-primary">{bike.price}</div>
-                    <div className="text-sm text-gray-500">per day</div>
-                  </div>
-                </div>
+                <CardTitle className="text-xl">{bike.name}</CardTitle>
               </CardHeader>
               
               <CardContent>
