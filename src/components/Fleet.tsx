@@ -21,30 +21,44 @@ const motorcycles = [
   },
   {
     id: 2,
-    name: "Adventure Explorer",
-    category: "Adventure",
-    image: "https://images.unsplash.com/photo-1690540293148-affdded8f45a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZHZlbnR1cmUlMjBtb3RvcmN5Y2xlJTIwdG91cmluZ3xlbnwxfHx8fDE3NTkxMzQxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    price: "$95",
-    features: ["800cc Engine", "Off-road Ready", "Luggage System", "GPS Mount"],
+    name: "Yamaha Mio Gear125",
+    category: "Scooter",
+    image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHNjb290ZXIlMjB5YW1haGF8ZW58MXx8fHwxNzU5MTM0MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    price: "$45",
+    features: ["125cc Engine", "Loud Horn", "30w Driving Light", "36L Givi Box", "White (2022 Model)"],
     specs: {
       passengers: 2,
-      topSpeed: "140 mph",
+      topSpeed: "65 mph",
       fuelType: "Gasoline",
-      transmission: "6-speed"
+      transmission: "Automatic"
     }
   },
   {
     id: 3,
-    name: "Classic Vintage",
-    category: "Cruiser",
-    image: "https://images.unsplash.com/photo-1565625078391-42a8daecf4bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwbW90b3JjeWNsZSUyMGNsYXNzaWN8ZW58MXx8fHwxNzU5MDk2ODExfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    price: "$79",
-    features: ["500cc Engine", "Comfortable Ride", "Classic Styling", "Low Seat"],
+    name: "QjMoto Atr 160",
+    category: "Sport",
+    image: "https://images.unsplash.com/photo-1609630875171-b1321377ee65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHNwb3J0JTIwbW90b3JjeWNsZXxlbnwxfHx8fDE3NTkxMzQxMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    price: "$55",
+    features: ["160cc Engine", "ABS + Traction Control", "Projector Headlights", "50w Driving Light", "45L Top Box", "White (2024 Model)"],
     specs: {
       passengers: 2,
-      topSpeed: "110 mph",
+      topSpeed: "75 mph",
       fuelType: "Gasoline",
-      transmission: "5-speed"
+      transmission: "Manual"
+    }
+  },
+  {
+    id: 4,
+    name: "Honda Adv160",
+    category: "Adventure",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMGFkdmVudHVyZSUyMHNjb290ZXJ8ZW58MXx8fHwxNzU5MTM0MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    price: "$60",
+    features: ["160cc Engine", "ABS + Traction Control", "Loud Horn", "60w Driving Light", "36L Top Box", "Black (2024 Model)"],
+    specs: {
+      passengers: 2,
+      topSpeed: "75 mph",
+      fuelType: "Gasoline",
+      transmission: "Automatic"
     }
   }
 ];
