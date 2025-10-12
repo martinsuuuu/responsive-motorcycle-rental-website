@@ -36,7 +36,11 @@ export function Header() {
               <Phone className="h-4 w-4" />
               <span>(+63)9052794814</span>
             </div>
-            <Button>Book Now</Button>
+            <Button asChild>
+              <a href="https://m.me/menace1008" target="_blank" rel="noopener noreferrer">
+                Book Now
+              </a>
+            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -68,7 +72,11 @@ export function Header() {
                 Contact
               </a>
               <div className="pt-2">
-                <Button className="w-full">Book Now</Button>
+                <Button asChild className="w-full">
+                  <a href="https://m.me/menace1008" target="_blank" rel="noopener noreferrer">
+                    Book Now
+                  </a>
+                </Button>
               </div>
             </div>
           </div>

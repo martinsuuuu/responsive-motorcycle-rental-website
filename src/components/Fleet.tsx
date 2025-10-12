@@ -7,16 +7,16 @@ import { Users, Gauge, Fuel, Settings } from "lucide-react";
 const motorcycles = [
   {
     id: 1,
-    name: "Sport Thunder",
-    category: "Sport",
-    image: "https://images.unsplash.com/photo-1642302708393-4139db2b02da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcG9ydCUyMG1vdG9yY3ljbGUlMjBibGFjayUyMG1vZGVybnxlbnwxfHx8fDE3NTkxMzQxMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    price: "$89",
-    features: ["600cc Engine", "Sport Position", "ABS Brakes", "Quick Shift"],
+    name: "Yamaha XMAX 300",
+    category: "Scooter",
+    image: "https://images.unsplash.com/photo-1558981359-219d6364c9c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHNjb290ZXIlMjBtb3RvcmN5Y2xlfGVufDF8fHx8MTc1OTEzNDE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    price: "$75",
+    features: ["300cc Engine", "ABS + Traction Control", "Loud Horn", "60w Driving Lights", "Well Maintained", "White (2022 Model)"],
     specs: {
       passengers: 2,
-      topSpeed: "180 mph",
+      topSpeed: "90 mph",
       fuelType: "Gasoline",
-      transmission: "6-speed"
+      transmission: "Automatic"
     }
   },
   {
@@ -117,8 +117,10 @@ export function Fleet() {
                   </div>
                 </div>
                 
-                <Button className="w-full">
-                  Book This Bike
+                <Button asChild className="w-full">
+                  <a href="https://m.me/menace1008" target="_blank" rel="noopener noreferrer">
+                    Book This Bike
+                  </a>
                 </Button>
               </CardContent>
             </Card>
