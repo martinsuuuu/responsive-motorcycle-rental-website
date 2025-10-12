@@ -26,12 +26,16 @@ export function Hero() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-3">
-            Book Your Ride
-            <ArrowRight className="ml-2 h-5 w-5" />
+          <Button asChild size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-3">
+            <a href="https://m.me/menace1008" target="_blank" rel="noopener noreferrer">
+              Book Your Ride
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </Button>
-          <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8 py-3">
-            View Fleet
+          <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8 py-3">
+            <a href="#fleet">
+              View Fleet
+            </a>
           </Button>
         </div>
 
